@@ -5,7 +5,7 @@ from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
 
-encrpyted_text = "gAAAAABeZY6rZDuBMaty60BlmfgkCleyKXQWs4With5-UElkuG8HR7P-wxPjyEyxQyjVuFS5kLlP4wTfn_X4QntUwBhATRMb3bJI_bCZJNKKJMpw6YXSudH5ABIg8PVcpHy1L0UQjnYKYLQXAwD9PskikSpZkFxkaQ=="
+encrpyted_text = "gAAAAABeZbuxy54OPTpgxqRmI7VoJHdN5x5KRiudF8a50H6w-8KZQxJ4vNmoLKBsEO5443wB1HKrOHZsf0aFpa2kxdjeH4PxeMol7v2sWA8rAS552CLWvuNCkowkOb3LVqVsNVBxcDiJzEIEgmPi8HLA43L201HRUA=="
 
 def getKey(password):
 	password_provided = password # This is input in the form of a string
